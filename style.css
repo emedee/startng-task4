@@ -1,0 +1,94 @@
+@media (max-width: 575.98px) {
+    .row{
+        flex-direction: column !important;
+    }
+    .white{
+        margin-top: 20px !important;
+    }
+}
+@media (min-width: 0px) and (max-width: 340px) {
+
+}
+@media (min-width: 576px ) and (max-width: 900px ) {
+
+}
+@media (min-width: 910px ) and (max-width: 1200px ) {
+
+}
+@media (min-width: 1300px ) and (max-width: 1440px ){
+
+}
+body{
+    background: rgba(255, 218, 185, 0.267);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.white{
+    background: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+.black{
+    background: maroon;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+.btn{
+    text-align: center;
+    color: white;
+    background: navy;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.answerOne, .answerTwo, .answerThree, .answerFour, .answerFive{
+    background: transparent;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    text-align: left;
+    border: none;
+}
+.btn-red{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background: maroon;
+    width: 100%;
+    border: none;
+    padding: 20px;
+}
+.white:hover{
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.final-score{
+    text-align: center;
+    font-weight: bolder;
+}
+.numbering{
+    font-weight: bolder;
+}
+.btn:disabled{
+    cursor: not-allowed;
+}
+.questionOne{
+    display: none;
+}
+.active{
+    display: block;
+}
+.button{
+    margin-top: 40%;
+}
