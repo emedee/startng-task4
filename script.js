@@ -49,7 +49,7 @@ analyzeResult = (index, parameter, color, correctOption) => {
         
     }
 }
-analyzeResult(1, answerOne, white, answers.one)
+analyzeResult(0, answerOne, white, answers.one)
 analyzeResult(1, answerTwo, whiteTwo, answers.two)
 analyzeResult(2, answerThree, whiteThree, answers.three)
 analyzeResult(2, answerFour, whiteFour, answers.four)
