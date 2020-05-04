@@ -14,11 +14,16 @@
     }
     .answerOne, .answerTwo, .answerThree, .answerFour, .answerFive{
         padding: 10px !important;
-        font-size: 9px !important;
+        font-size: 10px !important;
     }
     .btn, .btn-red{
         padding: 12px !important;
         font-size: 12px !important;
+    }
+    .black{
+        font-size: 14px !important;
+        font-weight: bolder !important;
+        padding: 16px !important;
     }
 }
 @media (min-width: 768px ){
@@ -165,4 +170,7 @@
 }
 .active{
     display: block;
+}
+p{
+    margin: 0px;
 }
