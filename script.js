@@ -40,7 +40,7 @@ analyzeResult = (index, parameter, color, correctOption) => {
                 color[correctAnswer].style.background = 'green'
                 parameter[correctAnswer].style.color = 'white'
             }
-            if (parameter[i].innerHTML === ("2"||"0"||"1"||"6")){
+            if(currentlySelected+1 === questions.length-1){
                 console.log("The End")
                 buttonNext.innerHTML = "The End!. View Total Score"
             }
