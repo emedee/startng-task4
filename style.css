@@ -16,7 +16,7 @@
         padding: 10px !important;
         font-size: 10px !important;
     }
-    .btn, .btn-red{
+    .btn, .btn-red, .btn-restart{
         padding: 12px !important;
         font-size: 12px !important;
     }
@@ -149,10 +149,20 @@
     border: none;
     padding: 20px;
 }
+.btn-restart{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background: maroon;
+    width: 100%;
+    border: none;
+    padding: 20px;
+}
 .white:hover{
     cursor: pointer;
 }
-.btn:hover{
+.btn, .btn-restart:hover{
     cursor: pointer;
 }
 .final-score{

@@ -13,6 +13,7 @@ let scores = document.querySelector(".scores")
 let finalScore = document.querySelector(".final-score")
 let buttonNext = document.querySelector(".btn")
 let buttonScores = document.querySelector(".btn-red")
+let buttonRestart = document.querySelector(".btn-restart")
 
 let counter = 0
 let currentlySelected = 0
@@ -47,7 +48,6 @@ analyzeResult = (index, parameter, color, correctOption) => {
             }
             parameter[i].disabled = true
         })
-        
     }
 }
 analyzeResult(0, answerOne, white, answers.one)
@@ -66,4 +66,7 @@ buttonNext.addEventListener('click', () => {
         buttonNext.style.display = 'none'
         buttonScores.style.display = 'none'
     }
+})
+buttonRestart.addEventListener('click', () => {
+    location.reload()
 })
