@@ -12,6 +12,14 @@
     .button{
         margin-top: 40% !important;
     }
+    .answerOne, .answerTwo, .answerThree, .answerFour, .answerFive{
+        padding: 10px !important;
+        font-size: 9px !important;
+    }
+    .btn, .btn-red{
+        padding: 12px !important;
+        font-size: 12px !important;
+    }
 }
 @media (min-width: 768px ){
     .row{
