@@ -39,6 +39,7 @@ analyzeResult = (index, parameter, color, correctOption) => {
                 color[i].style.background = 'red'
                 color[correctAnswer].style.background = 'green'
                 parameter[correctAnswer].style.color = 'white'
+                parameter[index].disabled = true
             }
             if(currentlySelected+1 === questions.length-1){
                 console.log("The End")
