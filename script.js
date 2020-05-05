@@ -35,16 +35,47 @@ analyzeResult = (index, parameter, color, correctOption) => {
                 scores.innerHTML = counter
                 parameter[i].style.color = 'white'
                 color[i].style.background = 'green'
+                parameter[index].disabled = true
+                if(index === 0){
+                    parameter[1].disabled =true
+                    parameter[2].disabled =true
+                    parameter[3].disabled =true
+                }else if(index === 1){
+                    parameter[0].disabled =true
+                    parameter[2].disabled =true
+                    parameter[3].disabled =true
+                }else if(index === 2){
+                    parameter[0].disabled =true
+                    parameter[1].disabled =true
+                    parameter[3].disabled =true
+                }else if(index === 3){
+                    parameter[0].disabled =true
+                    parameter[1].disabled =true
+                    parameter[2].disabled =true
+                }
             }else{
                 parameter[i].style.color = 'white'
                 color[i].style.background = 'red'
                 color[correctAnswer].style.background = 'green'
                 parameter[correctAnswer].style.color = 'white'
                 parameter[index].disabled = true
-            }
-            if(currentlySelected+1 === questions.length-1){
-                console.log("The End")
-                buttonNext.innerHTML = "The End!. View Total Score"
+                if(index === 0){
+                    parameter[1].disabled =true
+                    parameter[2].disabled =true
+                    parameter[3].disabled =true
+                }else if(index === 1){
+                    parameter[0].disabled =true
+                    parameter[2].disabled =true
+                    parameter[3].disabled =true
+                }else if(index === 2){
+                    parameter[0].disabled =true
+                    parameter[1].disabled =true
+                    parameter[3].disabled =true
+                }else if(index === 3){
+                    parameter[0].disabled =true
+                    parameter[1].disabled =true
+                    parameter[2].disabled =true
+                }
             }
             parameter[i].disabled = true
         })
