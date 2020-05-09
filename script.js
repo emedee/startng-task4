@@ -77,6 +77,10 @@ analyzeResult = (index, parameter, color, correctOption) => {
                     parameter[2].disabled =true
                 }
             }
+            if(currentlySelected+1 === questions.length-1){
+                console.log("The End")
+                buttonNext.innerHTML = "The End!. View Total Score"
+            }
             parameter[i].disabled = true
         })
     }
